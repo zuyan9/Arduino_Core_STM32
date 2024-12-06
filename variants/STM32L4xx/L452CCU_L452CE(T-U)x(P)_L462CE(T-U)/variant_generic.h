@@ -130,16 +130,16 @@
 
 // UART Definitions
 #ifndef SERIAL_UART_INSTANCE
-  #define SERIAL_UART_INSTANCE  4
+  #define SERIAL_UART_INSTANCE  1
 #endif
 
 // Default pin used for generic 'Serial' instance
 // Mandatory for Firmata
 #ifndef PIN_SERIAL_RX
-  #define PIN_SERIAL_RX         PA1
+  #define PIN_SERIAL_RX         PB7
 #endif
 #ifndef PIN_SERIAL_TX
-  #define PIN_SERIAL_TX         PA0
+  #define PIN_SERIAL_TX         PB6
 #endif
 
 // Extra HAL modules
